@@ -30,9 +30,9 @@ Click on **Tools** / **Script Editor**.
 
 ### Step 3: Copy the code.
 
-Delete all code.
-Copy the content of this [file](https://raw.githubusercontent.com/papay0/Day2Day/master/Code.gs) and paste it in the Script Editor tab.
-You can name it the way you want, Day2Day in my case.
+1. Delete all code.
+2. Copy the content of this [file](https://raw.githubusercontent.com/papay0/Day2Day/master/Code.gs) and paste it in the Script Editor tab.
+3. You can name it the way you want, Day2Day in my case.
 
 It should now look like this:
 
@@ -46,6 +46,7 @@ Click on **Edit** / **Current project's triggers**.
 ### Step 5: Make this script run periodically.
 
 - Click on **Add Triger**. (bottom right)
+
 - Select **cron** for *Choose which function to run*.
 - Keep the default choice **Head** for *Choose which deployment should run*.
 - Select **Time-driven** for *Select event source*.
